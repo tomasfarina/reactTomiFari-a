@@ -1,0 +1,40 @@
+.detail-container {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    border: 2px solid rgb(121, 120, 120);
+    padding: 2rem;
+    margin-left: 25%;
+}
+
+.detail-title {
+    margin-bottom: 2rem;
+}
+
+.detail-img {
+    width: 450px;
+    height: 450px;
+}
+
+.detail-price {
+    font-size: 1.6em;
+    color: rgb(16, 16, 16);
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.detail-buy {
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.detail{
+text-decoration: underline;
+}
+

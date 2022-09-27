@@ -7,7 +7,7 @@
 
 .card-containers{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -66,13 +66,6 @@
     transform: translateY(-5px);
 }
 
-.row{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
 
 .cart-icon-button {
     font-size: 1.1em;
@@ -100,3 +93,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
+
+.card-detalle-button{
+    text-decoration: underline;
+}
+  
